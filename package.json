@@ -1,0 +1,38 @@
+{
+  "name": "parcelDefault",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@ant-design/charts": "^1.4.2",
+    "@ant-design/icons": "^5.0.1",
+    "@antv/ava": "^3.0.1",
+    "@antv/ava-react": "^3.0.1",
+    "@antv/s2": "^1.44.0",
+    "@antv/s2-react": "^1.39.0",
+    "@antv/thumbnails": "^2.0.0",
+    "@antv/thumbnails-component": "^2.0.0",
+    "@dnd-kit/core": "^6.0.8",
+    "@dnd-kit/sortable": "^7.0.2",
+    "@dnd-kit/utilities": "^3.2.1",
+    "antd": "^5.4.2",
+    "antv-site-demo-rc": "^1.1.0",
+    "insert-css": "^2.0.0",
+    "lodash": "^4.17.21",
+    "qs": "^6.11.1",
+    "rc-resize-observer": "^1.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-highlight-words": "^0.20.0",
+    "react-json-view": "^1.21.3",
+    "react-window": "^1.8.9"
+  },
+  "scripts": {
+    "start": "rimraf dist && parcel public/index.html --open",
+    "build": "rimraf dist && parcel build public/index.html --dist-dir dist"
+  }
+}
